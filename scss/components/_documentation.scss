@@ -65,6 +65,7 @@
 .box-animation {
    width: 250px;
    border: 1px solid $grayLight;
+   border-radius: $rounded-box;
    padding: 10px;
    // position: relative;
 
@@ -99,7 +100,7 @@
 
 .c-duration-2 {
    animation-name: circulo2;
-   animation-duration: .5s;
+   animation-duration: 500ms;
    animation-iteration-count: infinite;
    animation-direction: alternate;
 }

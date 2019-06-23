@@ -20,23 +20,15 @@
    border-radius: $rounded-box;
    color: $grayMedium;
    transition: $transition;
+   position: relative;
+   
+   &:hover {
+      color: $white;
+      background-color: $orange;
+   }
+
 }
 
-.menu a .menu-option:hover {
-   color: $white;
-   background-color: $orange;
-}
-
-.menu a:nth-child(1) div {
-   margin: .2em 0;
-   color: $white;
-   background-color: $orange;
-}
-
-.container {
-   // border: $prueba;
-   // display: flex;
-}
 
 
 
