@@ -17,7 +17,8 @@ body {
   font-size: 16px;
   margin: 0;
   background-color: #F1F1F1;
-  color: #3F4450; }
+  color: #3F4450;
+  position: relative; }
 
 body::-webkit-scrollbar {
   width: 8px;
@@ -338,6 +339,37 @@ p {
   100% {
     -webkit-transform: translateX(175px);
     transform: translateX(175px); } }
+
+.box-animation {
+  cursor: pointer; }
+  .box-animation .c-delay-1 {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    transition-delay: 1s;
+    will-change: transition; }
+  .box-animation .c-delay-2 {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
+    will-change: transition; }
+  .box-animation .c-delay-3 {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+    will-change: transition; }
+  .box-animation:hover .c-delay-1, .box-animation:hover .c-delay-2, .box-animation:hover .c-delay-3 {
+    -webkit-transform: translateX(175px);
+    -ms-transform: translateX(175px);
+    transform: translateX(175px); }
 
 /*--------------------------
   Components > Footer

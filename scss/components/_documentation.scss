@@ -140,3 +140,39 @@
    }
 }
 
+
+
+
+
+// DELAY
+
+
+.box-animation {
+   cursor: pointer;
+
+   .c-delay-1{
+      transition: .5s;
+      transition-delay: 1s;
+      will-change: transition;
+
+   }
+
+    .c-delay-2{
+      transition: .5s;
+      transition-delay: 500ms;
+      will-change: transition;
+   }
+
+    .c-delay-3{
+      transition: .5s;
+      transition-delay: .3s;
+      will-change: transition;
+   }
+
+   &:hover {
+      .c-delay-1, .c-delay-2, .c-delay-3 {
+         transform: translateX(175px);
+      }
+   }
+}
+
