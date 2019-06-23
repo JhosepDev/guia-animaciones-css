@@ -178,6 +178,10 @@ p {
     color: #ffffff;
     background-color: #FA5D55; }
 
+.active {
+  background-color: #FA5D55;
+  color: #ffffff !important; }
+
 /*--------------------------
   Components > documentation 
 ---------------------------*/

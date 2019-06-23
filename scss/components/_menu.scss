@@ -36,6 +36,11 @@
 
 }
 
+.active {
+   background-color: $orange;
+   color: $white !important;
+}
+
 // .menu li:nth-of-type(8) {
 //    background-color: aqua;
 // }
