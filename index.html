@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Site Title -->
+  <title>Guía - Animaciones CSS</title>
+  <link rel="shortcut icon" href="src/png/jh-shortcut.png">
+
+
+  <!-- Bootstrap
+  ============================================= -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- FontAwesome
+  ============================================= -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- Google Fonts
+  ============================================= -->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  ============================================= -->
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1>Animaciones con CSS</h1>
+        <h3>Pequeña y básica documentación.</h3>
+        <p>No tendra dibujitos, pero si tiene ejemplos.</p>
+      </div>
+
+      <div class="rrss">
+
+        <a href="https://www.instagram.com/jhosep.dev/" target="_blank">
+          <i class="fab fa-instagram"></i>
+
+        </a>
+
+        <a href="https://www.facebook.com/JhWebServices/" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://github.com/JhosepDev" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </header>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-3">
+        <div class="box-menu">
+          <h4>Propiedades CSS</h4>
+
+          <div class="menu">
+            <a href="#transition">
+              <div class="menu-option">Transition</div>
+            </a>
+            <a href="#transform">
+              <div class="menu-option">Transform</div>
+            </a>
+            <a href="#translate">
+              <div class="menu-option">Translate</div>
+            </a>
+            <a href="#perspective">
+              <div class="menu-option">Perspective</div>
+            </a>
+            <a href="#scale">
+              <div class="menu-option">Scale</div>
+            </a>
+            <a href="#skew">
+              <div class="menu-option">Skew</div>
+            </a>
+            <a href="#ancla">
+              <div class="menu-option">Punto Ancla</div>
+            </a>
+            <a href="#animation">
+              <div class="menu-option">Animation</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col">
+
+        <div class="box-documentation transition">
+
+          <h2 id="#transition">Transition</h2>
+
+          <a href="https://developer.mozilla.org/es/docs/Web/CSS/transition-property" target="_blank">
+            <div class="btn-link">Documentación completa</div>
+          </a>
+
+          <!-- Options -->
+          <div class="options">
+            <div>
+              <i class="fas fa-angle-right"></i>
+              <a href="#property">
+                <span class="font-consola">transition-property</span>
+              </a>
+            </div>
+
+            <div>
+              <i class="fas fa-angle-right"></i>
+              <a href="">
+                <span class="font-consola">transition-duration</span>
+              </a>
+            </div>
+            <div>
+              <i class="fas fa-angle-right"></i>
+              <a href="">
+                <span class="font-consola">transition-delay</span>
+              </a>
+            </div>
+            <div>
+              <i class="fas fa-angle-right"></i>
+              <a href="">
+                <span class="font-consola">transition-timing-function</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- transition-property
+          -------------------------------------------->
+          <div class="tema">
+
+            <span class="font-consola-bold">transition-property</span>
+            <p>Se utiliza para declara la propiedad que se va a modificar.</p>
+            <p class="mb-5">
+              Algunos de los valores que puede recibir son: <br>
+              <strong>
+                : color; <br>
+                : background-color; <br>
+                : left, top; <br>
+                : transform, color, background-color; <br>
+                : letter-spacing, font-size, line-height; <br>
+              </strong>
+            </p>
+
+            <h4 class="mb-4">Ejemplo:</h4>
+
+            <div class="row">
+              <div class="col">
+                <span class="comentario">// transition-property: valor1, valor2;</span>
+                <span class="font-consola-bold">transition-property: background-color, with;</span>
+              </div>
+
+              <div class="col">
+                <div class="box-animation">
+                  <div class="cubo"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End TEMA -->
+          </div>
+
+
+          <hr class="mt-5">
+
+
+          <!-- transition-duration
+          -------------------------------------------->
+          <div class="tema">
+
+            <span class="font-consola-bold" id="duration">transition-duration</span>
+            <p class="mb-5">Duración de la animación. segundos(s) o milisegundos(ms).</p>
+
+
+            <h4 class="mb-4">Ejemplo:</h4>
+
+            <div class="row">
+              <div class="col">
+                <span class="font-consola-bold">transition-duration: 1s;</span>
+              </div>
+
+              <div class="col">
+                <div class="box-animation">
+                  <div class="circle c-duration-1"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <span class="font-consola-bold">transition-duration: .5s;</span>
+              </div>
+
+              <div class="col">
+                <div class="box-animation">
+                  <div class="circle c-duration-2"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <span class="font-consola-bold">transition-duration: .3s;</span>
+              </div>
+
+              <div class="col">
+                <div class="box-animation">
+                  <div class="circle c-duration-3"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End TEMA -->
+          </div>
+
+
+
+
+
+
+
+
+          <!-- End BOX CONTENT -->
+        </div>
+
+        <!-- End Col content -->
+      </div>
+
+      <!-- End Row -->
+    </div>
+
+    <!-- End container -->
+  </div>
+
+
+
+
+  <!-- Javascript Bootstrap ==================================== -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- Javascript Bootstrap ==================================== -->
+
+
+
+
+</body>
+
+</html>

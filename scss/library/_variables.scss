@@ -1,0 +1,56 @@
+/*--------------
+  $VARIABLES 
+---------------*/
+
+// GENERALES ======================================================= >
+
+$rounded-general: 20px;
+$rounded-box: 5px;
+$transition: .3s;
+$prueba: 1px solid red;
+
+// COLORES ========================================================= >
+
+$black: #000000;
+$white: #ffffff;
+
+// Escala de Grises
+$grayWhite: #F1F1F1;
+$grayLight: #BEBEBE;
+$grayMedium: #818085;
+$grayDark: #3F4450;
+
+// Brand
+$blueL: #2A3142;
+$blueDark: #1d2536;
+$orange: #FA5D55;
+$green: #00CA7C;
+
+
+// FONT ============================================================ >
+
+// $basefont: 'Encode Sans', sans-serif;
+
+
+// LAYOUT ========================================================== >
+
+$width-total: 100%;
+
+// BOTONES ======================================================== >
+
+$btn-fontSize: 1em;
+
+
+// CARDS ========================================================== >
+
+$rounded-card: 10px;
+
+
+// MEDIA WUERIES ================================================== >
+
+$bp-destock: 1200px;
+$bp-tablet-large: 991px;
+$bp-tablet: 767px;
+$bp-phone: 480px;
+$bp-phone-real: 360px;
+

@@ -1,0 +1,31 @@
+/*--------------------------
+  Styles Sass
+---------------------------*/
+
+// Librerías, Settings y Variables
+@import "library/variables";
+@import "library/mixins";
+
+
+//Layout
+@import "layout/base";
+
+// Pages
+@import "pages/home";
+
+
+// Components
+@import "components/header";
+@import "components/buttons";
+@import "components/icons";
+@import "components/menu";
+@import "components/documentation";
+@import "components/footer";
+
+
+
+
+
+
+
+

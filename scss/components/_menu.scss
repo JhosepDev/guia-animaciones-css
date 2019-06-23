@@ -1,0 +1,42 @@
+/*--------------------------
+  Components > Menu 
+---------------------------*/
+
+.box-menu {
+   width: 200px;
+   padding: 3em 1em;
+   position: sticky;
+   top: 0;
+   // border: $prueba;
+
+   h4 {
+      margin-bottom: 1.5em;
+      font-weight: 700;
+   }
+}
+
+.menu a .menu-option {
+   padding: .5em 0 .5em 1.5em;
+   border-radius: $rounded-box;
+   color: $grayMedium;
+   transition: $transition;
+}
+
+.menu a .menu-option:hover {
+   color: $white;
+   background-color: $orange;
+}
+
+.menu a:nth-child(1) div {
+   margin: .2em 0;
+   color: $white;
+   background-color: $orange;
+}
+
+.container {
+   // border: $prueba;
+   // display: flex;
+}
+
+
+
